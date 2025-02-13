@@ -23,6 +23,18 @@ def guardarJSONusuarios(dic):
 
 
 
+def abrirJSONcostoPlanes():
+    dicFinal={}
+    with open("../jsons/costoPlanes",'r') as openFile:
+        dicFinal=json.load(openFile)
+    return dicFinal
+
+def guardarJSONcostoPlanes(dic):
+    with open("../jsons/costoPlanes",'w') as outFile:
+        json.dump(dic,outFile)
+
+
+
 def abrirJSONplanes():
     dicFinal={}
     with open("../jsons/planes.json",'r') as openFile:

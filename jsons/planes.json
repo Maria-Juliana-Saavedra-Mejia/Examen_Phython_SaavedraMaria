@@ -1,7 +1,6 @@
-{
-    "Internet Fibra Optica" : 50000,
-    "Planes Pospago": 60000,
-    "Planes Prepago": 10000
-  
-}
+[    
+    "Internet Fibra Optica" ,
+    "Planes Pospago",
+    "Planes Prepago"
+]
 
