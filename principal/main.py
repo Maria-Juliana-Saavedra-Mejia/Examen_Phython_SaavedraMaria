@@ -1,5 +1,5 @@
 from modusuario import *
-
+from modplanes import*
 menu_principlal()
 op=int(input("Digite su eleccion -> "))
 
@@ -23,5 +23,6 @@ if op==2:
         menu_admin
         r=int(input("Digite su eleccion -> "))
         if r==1: 
-            print("")
+            aged()
+
             
