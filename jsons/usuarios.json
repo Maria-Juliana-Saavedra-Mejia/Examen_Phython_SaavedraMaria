@@ -1,0 +1,20 @@
+[
+    {
+        "Nombre":"Mario Jose Gomez Perez",
+        "ID":10982648374,
+        "Direccion": "Cll 101# 22a",
+        "Numero de telefono":"31245678097",
+        "Plan":"Internet Fibra Optica",
+        "Categoria": "Nuevo Cliente"
+    },
+    {
+        "Nombre":"Maria Juliana Saavedra Mejia",
+        "ID":1097100816,
+        "Direccion": "Cll 103",
+        "Numero de telefono":"318662885493",
+        "Plan":"Prepago",
+        "Categoria": "Cliente leal"
+
+    }
+
+]
