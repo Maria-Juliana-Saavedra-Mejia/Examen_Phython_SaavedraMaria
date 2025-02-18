@@ -19,30 +19,28 @@ En este repositorio se encuentra el proyecto de Python realizado por las estudia
 
 Para el correcto funcionamiento del presente se requiere la instalación de Python en el dispositivo a utilizar o, en caso de utilizar Visual Studio Code, instalar la extensión de Python. 
 
-
-
-
-
-
-
-
-
-
-**# **Explicación**
+# **Explicación**
 
 > [** Main**]
 Es la seccion en la que se encuentran importados los diferentes modulos creados y donde se ejecuta el programa.
 
-> [**Coordinador**]
-Es el módulo creado específicamente para los coordinadores, este es el que tiene una mayor cantidad de funciones y realiza el CRUD, este módulo no funciona a su 100%, pero se evidencia un funcionamiento casi perfecto del programa en donde al desplegar el menú de coordinador se navega fácilmente por esta parte del programa. 
+> [**Modulo Jsons**]
+Es el modulo en el que se importan los jsosn para luego llamarlos en los diferentes modulos en los que sean necesarios.
 
-> [**Modulos**]
-Se evidencia el menú principal, en el que se elige cómo se quiere iniciar sesión, si como Camper, Trainer o Coordinador. En el caso de entrar como Camper, va a desplegar el menú de mismo, permitiendo realizar la inscripción en el caso de no estarlo, y tiene la opción de ver su información personal. En el caso de entrar como Trainer, permite ver los profesores y los cursos que tiene asignado, con la función de ver sus horarios y agregar la nota a cada estudiante por separado. 
+> [**Modulo planes**]
+Se encuentra el menú del administrador en donde se pueden realizar las funciones de CRUD, ya que se puede crear, eliminar, editar y ver todos los planes y sus precios en adición se puede dar a ciertos clientes un descuento en su precio, en el caso de que sean clientes fieles que llevan varios años adquiriendo los servicios de telefonía de Movistar.
 
-> [**JSON Campers**]
-Se muestra toda la informacion referente a los campers, sus notas, estados y grupos asignados, este ultimo es el que nos ayuda a conectarlo con el otro JSON creado para poder realizar las diferentes acciones del CRUD. 
+> [**Modulo usuarios**]
+En este módulo está el menú principal para elegir si se quiere ser administrador o cliente, además está el menú del cliente en el que se puede ver los planes o el perfil, en el caso de realizar una compra y no estar inscrito en algún plan, se tienen que hacer una inscripción, pero cuando ya se tiene un registro previo, solo se va a aumentar el costo de la factura.
 
+> [**JSON consultas**]
+Es donde se almacenana las consultas, reclamos o sugerencias de los clientes Movistar.
 
-> [**JSON Salones**]
-Se mnuestra la asignacion de salones, horarios, profesores, skills y rutas por cada grupo.
-**
+> [**JSON costos**]
+Se tiene almacenado cada uno de los costos de los planes, cabe aclarar que estar organizados en el mismo orden de los planes, por que si no saldrian los valores de forma desordenada
+
+> [**JSON planes**]
+Es donde estan todos los planes que ofrece la compañia de telefonia Movistar. 
+
+> [**JSON usuarios**]
+Es donde se encuentra toda la informacion personal de los usuarios que a la fecha tienen un servicio activo de Movistar.
